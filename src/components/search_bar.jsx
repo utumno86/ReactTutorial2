@@ -16,6 +16,7 @@ class SearchBar extends Component {
           })
         }
         />
+        Value of the input: {this.state.term}
       </div>
     );
   }
